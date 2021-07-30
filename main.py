@@ -10,5 +10,6 @@ data = response.json()
 while True:
      for get_data in data:
           print (('ชื่อผู้เล่น :'),get_data['name'] , (' ||||| ') ,('Ping :'),get_data['ping'])
-          print('=============================================')
+          
      time.sleep(5)
+     print('=============================================')
